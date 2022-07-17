@@ -1,0 +1,54 @@
+.containerForm {
+    display: flex;
+    flex: 100%;
+    justify-content : center;
+    align-items : center;
+    flex-direction: column;
+    height: 940px;
+    width: 850px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 1em;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)) ,url("../img/applicationForm/background51-min.png");
+}
+
+.containerForm h1 {
+    font-size: 1.6em;
+    color: aliceblue;
+    margin-bottom: 30px;
+    opacity: 90%;
+
+}
+
+.cardForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imputForm {
+    display: flex;
+    border-radius: 15px;
+    font-size: 1.5em;
+    width: 600px;
+    height: 40px;
+    opacity: 60%;
+    margin: 10px;
+    background-color: antiquewhite;
+    
+}
+
+.botaoOneForm {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: none;
+
+ }
+
+ .botaoTwoForm {
+    background:#42EB1F;
+    width: 600px;
+ }

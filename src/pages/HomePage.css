@@ -1,0 +1,27 @@
+
+.containerHome {
+   display: flex;
+   flex: 100%;
+   justify-content : center;
+   align-items : center;
+   flex-direction: column;
+   height: 940px;
+   width: 850px;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)) ,url("../img/home/background-min.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+.containerHome img {
+   
+   height: 15em;
+  
+}
+
+.botaoOne {
+   background: #42EB1F;
+}
+
+.botaoTwo {
+   background:none;
+}

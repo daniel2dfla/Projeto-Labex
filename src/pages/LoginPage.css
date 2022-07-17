@@ -1,0 +1,44 @@
+.conteinerLogin {
+    display: flex;
+    flex: 100%;
+    justify-content : center;
+    align-items : center;
+    flex-direction: column;
+    height: 940px;
+    width: 850px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)) ,url("../img/login/background3-min.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 1em;
+}
+
+.conteinerLogin h2 {
+    font-size: 2.5em;
+    color: aliceblue;
+    margin-bottom: 30px;
+    opacity: 90%;
+}
+
+.conteinerLogin input {
+    display: flex;
+    border-radius: 15px;
+    font-size: 1.5em;
+    width: 600px;
+    height: 40px;
+    opacity: 60%;
+    margin: 10px;
+    background-color: antiquewhite;
+}
+
+.botaoOneLogin {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: none;
+}
+
+.botãoTwoLogin {
+    background:#42EB1F;
+    width: 150px;
+}
