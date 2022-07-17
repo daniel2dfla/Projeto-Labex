@@ -1,0 +1,51 @@
+.containerCreateTrip {
+    display: flex;
+    flex: 100%;
+    justify-content : center;
+    align-items : center;
+    flex-direction: column;
+    height: 940px;
+    width: 850px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)) ,url("../img/adminHome/background4-min.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.containerCreateTrip h1 {
+    font-size: 1.6em;
+    color: aliceblue;
+    margin-bottom: 30px;
+    opacity: 80%;
+}
+
+.containerCreateTrip form {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid #FFF; */
+    width: 650px;
+    height: auto;
+    background-color: none;
+}
+
+.inputSelect {
+    background: #FFF;
+    opacity: 40%;
+    height: 40px;
+    border-radius: 15px;
+    margin: 5px;
+    font-size: 1.1em;
+}
+
+.botaoOneCreateTrip {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: none;
+}
+
+.botaoTwoCreateTrip {
+    background:#42EB1F;
+    width: 200px;
+}

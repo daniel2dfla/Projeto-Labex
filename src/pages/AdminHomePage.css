@@ -1,0 +1,63 @@
+.containerAdmin {
+    display: flex;
+    flex: 100%;
+    justify-content : center;
+    align-items : center;
+    flex-direction: column;
+    height: 940px;
+    width: 850px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)) ,url("../img/adminHome/background4-min.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 1em;
+}
+
+.containerAdmin h1 {
+    font-size: 1.6em;
+    color: aliceblue;
+    margin-bottom: 30px;
+    opacity: 80%;
+}
+
+.cardTrips {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #000;
+    border-radius: 15px;
+    cursor: pointer; 
+    width: 800px;
+    height: 80px;
+    text-align: left;
+    margin: 20px;
+    opacity: 40%;
+    background-color: aliceblue;
+    padding-right: 0;
+    padding-left: 40px;
+    font-size: 1.3em;
+}
+
+.cardTrips button {
+    opacity: 100%;
+    background-color: #000;
+}
+
+.botãoOneAdmin {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: none;
+}
+
+.botaoTwoAdmin {
+    background:#42EB1F;
+    width: 200px;
+}
+
+.botaoThreeAdmin {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+}
