@@ -1,9 +1,9 @@
 import React from 'react'
 import axios from "axios";
 import './CreateTripPage.css'
-import { goToBack } from '../coordinator/Coordinator';
+import { goToBack } from '../../coordinator/Coordinator';
 import { useNavigate } from 'react-router-dom';
-import { urlBase } from '../services/ApiRequest'
+import { urlBase } from '../../services/ApiRequest'
 import { useState } from 'react'
 
 const CreateTripPage = () => {

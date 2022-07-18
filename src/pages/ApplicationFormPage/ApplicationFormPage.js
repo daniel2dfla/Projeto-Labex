@@ -1,12 +1,12 @@
 import React from 'react'
 import axios from "axios";
 import './ApplicationFormPage.css'
-import { goToBack } from '../coordinator/Coordinator';
+import { goToBack } from '../../coordinator/Coordinator';
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from 'react'
-import { urlBase } from '../services/ApiRequest'
-import { countries } from '../services/countries'
-import api from "../services/ApiRequest";
+import { urlBase } from '../../services/ApiRequest'
+import { countries } from '../../services/countries'
+import api from "../../services/ApiRequest";
 
 
 const ApplicationFormPage = () => {
