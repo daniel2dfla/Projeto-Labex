@@ -1,10 +1,10 @@
 import React from 'react'
 import './LoginPage.css'
 import { useNavigate } from "react-router-dom";
-import { goToBack , goToAdminHome } from '../coordinator/Coordinator';
+import { goToBack , goToAdminHome } from '../../coordinator/Coordinator';
 import { useState } from 'react'
 import axios from "axios";
-import { urlBase } from '../services/ApiRequest'
+import { urlBase } from '../../services/ApiRequest'
 
 const AdminHomePage = () => {
     const navigate = useNavigate()

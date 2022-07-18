@@ -2,8 +2,8 @@ import React from 'react'
 import './ListTripsPage.css'
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from 'react'
-import { goToApplicationForm , goToBack } from '../coordinator/Coordinator';
-import { urlBase } from '../services/ApiRequest'
+import { goToApplicationForm , goToBack } from '../../coordinator/Coordinator';
+import { urlBase } from '../../services/ApiRequest'
 import axios from "axios";
 
 const ListTripsPage = () => {

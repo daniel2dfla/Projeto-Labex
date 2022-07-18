@@ -1,9 +1,9 @@
 import React from 'react'
 import './HomePage.css'
-import { goToListTrips , goToLogin } from '../coordinator/Coordinator';
+import { goToListTrips , goToLogin } from '../../coordinator/Coordinator';
 import { useNavigate } from "react-router-dom";
 // import Img from 'react-image'
-import logo from '../img/home/horizontal.png'
+import logo from '../../img/home/horizontal.png'
 
 
 

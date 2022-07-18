@@ -2,8 +2,8 @@ import React from 'react'
 import './AdminHomePage.css'
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from 'react'
-import { goToBack , goToCreateTrip , goToTripDetails } from '../coordinator/Coordinator';
-import { urlBase } from '../services/ApiRequest'
+import { goToBack , goToCreateTrip , goToTripDetails } from '../../coordinator/Coordinator';
+import { urlBase } from '../../services/ApiRequest'
 import axios from "axios";
 
 const AdminHomePage = () => {
@@ -44,7 +44,7 @@ const AdminHomePage = () => {
     const showName = trips.map((trip) => {
       return (
         <div  className='cardTrips' key={trip.id}>
-          <p  onClick={() => goToTripDetails(navigate)}><strong>Nome:</strong> {trip.name}</p>
+          <p key={trip.id} trip={trip.id} onClick={() => goToTripDetails(navigate)}><strong>Nome:</strong> {trip.name}</p>
           <button onClick={() => deleteTrip(trip.id)}>X</button>
         </div>
         )
